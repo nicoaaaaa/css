@@ -15,24 +15,6 @@ HTML 引入
     <!-- ... -->
   </head>
   <body>
-    <!-- ... -->
-
-    <!-- <div id="waline-recent"></div> -->
-    <!-- <script type="module"> -->
-    <!--     import { RecentComments } from 'https://cdn.jsdelivr.net/npm/@waline/client/dist/waline.mjs'; -->
-    <!---->
-    <!--     RecentComments({ -->
-    <!--         el: '#waline-recent', -->
-    <!--         serverURL: 'http://waline.vercel.app', -->
-    <!--         count: 1, -->
-    <!--     }); -->
-    <!-- </script> -->
-
-    <!-- <div id="article-info"> -->
-      <!-- ... -->
-      <!-- 阅读量: <span class="waline-pageview-count" data-path="{{.RelPermalink}}" /> -->
-      <!-- ... -->
-    <!-- </div> -->
 
     <div id="waline"></div>
     <script type="module">
