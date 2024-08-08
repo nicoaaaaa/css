@@ -148,7 +148,4 @@ HTML 引入
 [article]
 	showComments = true
 ```
-在博客目录中的 /config/_default/params.toml 文件下, 将 showComments 修改为 true
-
-也可添加在hugo.toml中
-
+在博客根目录中的 hugo.toml 文件下, 将 showComments 修改为 true
